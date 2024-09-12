@@ -84,14 +84,14 @@ export default function App() {
             className={`harf ${item.shake ? 'shake' : ''}`} // Sallanma ve büyüme animasyonu ekleniyor
             draggable
             onMouseOver={() => handleMouseOver(index)} // Mouse üzerine geldiğinde animasyonu başlat
-            onMouseOut={() => handleMouseOut(index)} // Mouse ayrıldığında animasyonu durdur
+            // onMouseOut={() => handleMouseOut(index)} // Mouse ayrıldığında animasyonu durdur
             style={{
               position: 'absolute',
               top: item.y,
               left: item.x,
               fontSize: '44px',
               color: item.color,
-              animation: item.shake ? 'shake 0.5s infinite' : '', // Sallanma ve büyüme animasyonu
+              animation: item.shake ? 'shake 2s infinite' : '', // Sallanma ve büyüme animasyonu
             }}
           >
             {item.harf}
