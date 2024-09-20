@@ -2,14 +2,26 @@
 
 ![Random Letter Demo](public/randomletterpagaimg.png)
 
-This project started as a small task given to me, but I decided to expand and shape it further. The core idea of the project is to randomly assign letters from an array to the page when clicking on a specific area with the mouse. We capture the mouse position when clicked, and a letter is placed there. Each new click retains the previous ones, storing them in an array, and they continue to be visible on the page.
+This project started as a small task given to me, but I decided to **expand** and shape it further. The core idea of the project is to randomly assign letters from an array to the page when clicking on a specific area with the mouse. 
 
-There are also three buttons: **Undo**, **Redo**, and **Delete**. These allow the user to undo the last added letter, redo the undone ones, or completely clear the board if you choose to delete all letters.
+### Main Features:
 
-I also added a small feature: if the mouse passes over a previously placed letter, the letter will "pop" by growing larger and then disappear from the list. However, when there are too many letters on the page, or if the mouse passes over multiple letters at once, the system starts to get a bit buggy. I plan to work on fixing these issues later.
+- **Random Letter Placement**: We capture the mouse position when clicked, and a letter is placed at the clicked location.
+- **Persistent Letters**: Each new click retains the previous ones, storing them in an array, and they continue to be visible on the page.
+  
+### Controls:
 
-This is an evolving project, and I hope to refine and enhance it as time goes on. Thank you for checking it out and for any feedback you may have!
+- **Undo**: Undo the last added letter.
+- **Redo**: Redo the undone letter.
+- **Delete**: Completely clear the board and delete all letters.
 
+---
+
+### Additional Feature:
+
+I also added a fun feature: if the mouse passes over a previously placed letter, the letter will "pop" by **growing larger and then disappearing** from the list. However, when there are too many letters on the page, or if the mouse passes over multiple letters at once, the system starts to get a bit buggy. I plan to **fix** these issues soon.
+
+---
 
 # Getting Started with Create React App
 
